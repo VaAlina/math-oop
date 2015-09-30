@@ -1,0 +1,16 @@
+* {
+    outline: none !important;
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+#taskToSolve {
+    font-size: 350%;
+}
+svg {
+    height: 300px;
+    width: 300px;
+}
+.hide {
+    display: none;
+}
