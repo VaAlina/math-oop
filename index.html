@@ -1,9 +1,27 @@
-<div class="container"> <a href="#" id="saveStatistics">
-         <span class="glyphicon glyphicon-floppy-disk"></span>
-         <span> Save to statistics.</span>
-     </a>
+<!doctype html>
+<html>
 
-     <h2>Test yourself</h2>
+<head>
+    <title>Math</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="style/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/nvd3/1.1.15-beta/nv.d3.min.css" />
+
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="js/script.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/nvd3/1.1.15-beta/nv.d3.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <a href="#" id="saveStatistics">
+        <span class="glyphicon glyphicon-floppy-disk"></span>
+        <span> Save to statistics.</span>
+    </a>
+
+    <h2>Test yourself</h2>
 
     <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#home">Playground</a>
@@ -21,25 +39,25 @@
     </ul>
     <div class="tab-content">
         <div id="menu1" class="tab-pane fade">
-             <h3>In the "Settings" tab you can change settings. The result will be next:</h3>
+            <h3>In the "Settings" tab you can change settings. The result will be next:</h3>
 
             <div class="well">
-                 <h4>34+67+90+67+45+12 </h4>
+                <h4>34+67+90+67+45+12 </h4>
 
                 <p>Variables length is set to 2 and variables amount is set to 6, operation is plus.</p>
             </div>
             <div class="well">
-                 <h4>6789-4567-1234</h4>
+                <h4>6789-4567-1234</h4>
 
                 <p>Variables length is set to 4 and variables amount is set to 3, operation is minus.</p>
             </div>
             <div class="well">
-                 <h4>2*5*6*4*9*8</h4>
+                <h4>2*5*6*4*9*8</h4>
 
                 <p>Variables length is set to 1 and variables amount is set to 6, operation is multiply.</p>
             </div>
             <div class="well">
-                 <h4>67895/23450</h4>
+                <h4>67895/23450</h4>
 
                 <p>Variables length is set to 2 and variables amount is set to 2, operation is divide.</p>
             </div>
@@ -53,7 +71,7 @@
             <p id="resultText"></p>
         </div>
         <div id="menu2" class="tab-pane fade">
-             <h3>Let's change settings!</h3>
+            <h3>Let's change settings!</h3>
 
             <p>Variables length is set to
                 <input type="text" id="variablesLength" value="3" />
@@ -62,8 +80,7 @@
                 <input type="text" id="variablesAmount" value="2" />
             </p>
             <p>Operation type is set to
-                <br/><span class="currentOperation"></span>
-Plus
+                <br/><span class="currentOperation"></span> Plus
                 <input type="radio" name="operationType" title="plus" value="+" checked />
                 <br/>Minus
                 <input type="radio" name="operationType" title="minus" value="-" />
@@ -75,23 +92,23 @@ Plus
             </p>
         </div>
         <div id="menu3" class="tab-pane fade">
-             <h3>Todays Statistics</h3>
+            <h3>Todays Statistics</h3>
 
             <p id="emptyStatisticsMessage">You need to solve at least 1 task to get the statistics.</p>
             <table class="table table-striped hide">
                 <thead>
-                    <tr>
-                        <th>Total</th>
-                        <th>Correct</th>
-                        <th>Incorrect</th>
-                    </tr>
+                <tr>
+                    <th>Total</th>
+                    <th>Correct</th>
+                    <th>Incorrect</th>
+                </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td id="general">0</td>
-                        <td id="correct">0</td>
-                        <td id="incorrect">0</td>
-                    </tr>
+                <tr>
+                    <td id="general">0</td>
+                    <td id="correct">0</td>
+                    <td id="incorrect">0</td>
+                </tr>
                 </tbody>
             </table>
             <input type="button" id="deleteStatistics" value="delete statistics" class="btn btn-default">
@@ -104,3 +121,6 @@ Plus
         </div>
     </div>
 </div>
+</body>
+
+</html>
