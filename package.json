@@ -1,0 +1,22 @@
+{
+  "name": "math-oop",
+  "version": "1.0.0",
+  "description": "\"program for increacing calculation skills\"",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaAlina/math-oop.git"
+  },
+  "keywords": [
+    "math"
+  ],
+  "author": "\"Ananyiva Alina\" (ananyivaalina@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaAlina/math-oop/issues"
+  },
+  "homepage": "https://github.com/VaAlina/math-oop#readme"
+}
