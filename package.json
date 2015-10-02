@@ -1,6 +1,6 @@
 {
   "name": "math-oop",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "\"increase your calculation skills\"",
   "main": "script.js",
   "scripts": {
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/VaAlina/math-oop/issues"
   },
-  "homepage": "https://github.com/VaAlina/math-oop#readme"
+  "homepage": "https://github.com/VaAlina/math-oop#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "d3": "^3.5.6",
+    "jquery": "^1.11.3"
+  },
+  "devDependencies": {}
 }
