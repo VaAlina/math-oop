@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VaAlina/math-oop.git"
+    "url": "git+https://github.com/octomauschen/math-oop.git"
   },
   "keywords": [
     "math",
@@ -17,9 +17,9 @@
   "author": "Ananyiva Alina (ananyivaalina@gmail.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VaAlina/math-oop/issues"
+    "url": "https://github.com/octomauschen/math-oop/issues"
   },
-  "homepage": "https://github.com/VaAlina/math-oop#readme",
+  "homepage": "https://github.com/octomauschen/math-oop#readme",
   "dependencies": {
     "bootstrap": "^3.3.5",
     "d3": "^3.5.6",
